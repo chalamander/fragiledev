@@ -1,0 +1,92 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+
+body {
+	width: 75%;
+	margin: 0 auto;
+	background-color: $backgroundColour;
+}
+
+//Tend to avoid tag wide declarations personaly, i'll make an exception for this.
+header {
+	
+	background-color:green;// #FFFFFF;
+	width: 100%;
+	@include border-radius(25px);
+
+	min-height: 15%;
+	margin-bottom: 2%;
+}
+
+
+//Wraps around the content sections and asides, provides the white border box.
+.ContentWrapper {
+	background-color: #FFFFFF;
+	padding-left: 2%;
+	padding-right: 2%;
+	@include border-radius(25px);
+}
+
+
+//Primary content section
+.PriContent {
+	width: 70%;
+	min-height: 80%;
+	margin: 0 auto;
+	display: inline-block;
+	padding-top: 5%;
+}
+
+//Story contained within a primary content section
+//Some fancy mark up could be used to do this, but simplicity rules out for me.
+.Story {
+	width: 75%;
+	background-color: $HighLightColour;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	padding: 10%;
+	@include border-radius(5px);
+	color: white;
+}
+
+
+//This is the section that contains the primary page side bar.
+.PriSideBar {
+	// padding-left: 5%;
+	// padding-right: 5%;
+	padding-top: 5%;
+	min-height: 30%; 
+	vertical-align: top;
+
+	display: inline-block;
+	width: 30%;
+	//background-color: red;//$Colour2;
+	
+
+}
+
+//This is articles within the primary side bar.
+.SideBarArticle {
+	color: white;
+	width: 70%;
+	margin: 0 auto;
+	@include border-radius(5px);
+	background-color: $Colour1;
+	padding: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+}
+
+
+
+//ToolTip:
+.TT {
+	@include  hui_tooltip(attr(data-tooltip),  "top");
+}
