@@ -1,6 +1,6 @@
 <?php
   //All of the controllers and there associated actions:
-  $controllers = array('pages' => ['home', 'error'], 'ajax' => ['videoboxcontents'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] );
+  $controllers = array('pages' => ['home', 'error'], 'ajax' => ['gamestate','getzombiedir'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] );
 
   if (array_key_exists($controller, $controllers)) {
 

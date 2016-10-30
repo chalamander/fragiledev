@@ -1,15 +1,19 @@
 <?php
-  class ajaxController {
-    public function videoboxcontents() {
+class ajaxController {
 
-    //Include for example:
-    //Render the appropiate video box:
 
-      require_once('views/ajax/videoboxcontents/index.php');
-    
+	public function gamestate() {
 
-    }
-    
+		require_once('views/ajax/GameState.php');
 
-  }
+	}
+
+	public function getzombiedir(){
+
+		echo 'l';
+
+	}
+
+
+}
 ?>

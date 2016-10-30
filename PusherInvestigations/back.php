@@ -1,6 +1,7 @@
 <?php
   require('Pusher.php');
 
+
   $options = array(
     'encrypted' => true
   );
@@ -11,6 +12,6 @@
     $options
   );
 
-  $data['message'] = 'Test2';
+  $data['message'] = 'dead';
   $pusher->trigger('test_channel', 'my_event', $data);
 ?>

@@ -7,4 +7,4 @@ pusher_client = pusher.Pusher(
   ssl=True
 )
 
-pusher_client.trigger('test_channel', 'my_event', {'message': 'hello Pythons'})
+pusher_client.trigger('test_channel', 'my_event', {'message': 'dead'})

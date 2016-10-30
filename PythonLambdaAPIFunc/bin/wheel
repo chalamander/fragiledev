@@ -1,0 +1,11 @@
+#!/Users/robert/Documents/University/Other/Hackathons/2016/BrumHack5.0/fragiledev/PythonLambdaAPIFunc/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from wheel.tool import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

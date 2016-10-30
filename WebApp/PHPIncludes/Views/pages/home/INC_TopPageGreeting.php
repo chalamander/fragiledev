@@ -1,7 +1,12 @@
 	<?php
 	/**
-	 * This is the greeting that can be seen at the top of the site.
-	 */
+	 *Gets a device ID if necasary
+	  */
+	 
+	 if( !isset($_SESSION["deviceID"] )){
 
-	?>
+	 	$_SESSION["deviceID"] = Devices::addDevice();
+	 
 
+
+	 }
