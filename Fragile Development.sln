@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragile Development.CSharp.Plugins", "Fragile Development.CSharp.Plugins.csproj", "{FE3743AC-132A-603C-9FE7-EDFA606E9272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragile Development.CSharp", "Fragile Development.CSharp.csproj", "{3C09D871-9418-1B13-A3EA-3A8E94ADB1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragile Development.CSharp.Editor", "Fragile Development.CSharp.Editor.csproj", "{4CF7371A-34B6-6C68-F35A-F6F9A4DFCD3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE3743AC-132A-603C-9FE7-EDFA606E9272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3743AC-132A-603C-9FE7-EDFA606E9272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3743AC-132A-603C-9FE7-EDFA606E9272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3743AC-132A-603C-9FE7-EDFA606E9272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C09D871-9418-1B13-A3EA-3A8E94ADB1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C09D871-9418-1B13-A3EA-3A8E94ADB1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C09D871-9418-1B13-A3EA-3A8E94ADB1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C09D871-9418-1B13-A3EA-3A8E94ADB1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF7371A-34B6-6C68-F35A-F6F9A4DFCD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF7371A-34B6-6C68-F35A-F6F9A4DFCD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF7371A-34B6-6C68-F35A-F6F9A4DFCD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF7371A-34B6-6C68-F35A-F6F9A4DFCD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
