@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 9ff77ca995f01074483710f3705762ab
+timeCreated: 1477768575
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: back1
+    100004: back2
+    100006: back3
+    100008: Cube
+    100010: Cube.002
+    100012: DICKarea
+    100014: elbow_l
+    100016: elbow_r
+    100018: foot_l
+    100020: foot_r
+    100022: hand_l
+    100024: hand_r
+    100026: head
+    100028: hips_main
+    100030: knee_l
+    100032: knee_r
+    100034: lowerarm_l
+    100036: lowerarm_r
+    100038: lowerleg_l
+    100040: lowerleg_r
+    100042: master
+    100044: neck
+    100046: sholder_l
+    100048: sholder_r
+    100050: skelly.000
+    100052: upperarm_l
+    100054: upperarm_r
+    100056: upperleg_l
+    100058: upperleg_r
+    400000: //RootNode
+    400002: back1
+    400004: back2
+    400006: back3
+    400008: Cube
+    400010: Cube.002
+    400012: DICKarea
+    400014: elbow_l
+    400016: elbow_r
+    400018: foot_l
+    400020: foot_r
+    400022: hand_l
+    400024: hand_r
+    400026: head
+    400028: hips_main
+    400030: knee_l
+    400032: knee_r
+    400034: lowerarm_l
+    400036: lowerarm_r
+    400038: lowerleg_l
+    400040: lowerleg_r
+    400042: master
+    400044: neck
+    400046: sholder_l
+    400048: sholder_r
+    400050: skelly.000
+    400052: upperarm_l
+    400054: upperarm_r
+    400056: upperleg_l
+    400058: upperleg_r
+    4300000: Cube
+    4300002: Cube.002
+    7400000: skelly.000|hit.001
+    7400002: skelly.000|reel_up_1.001
+    7400004: skelly.000|reel_up_2.001
+    7400006: skelly.000|reel_up_3.001
+    7400008: skelly.000|reel_up_4.001
+    7400010: skelly.000|Untitled.000
+    7400012: skelly.000|Untitled.004
+    7400014: skelly.000|Untitled.005
+    7400016: skelly.000|walk
+    7400018: Cube|hit.001
+    7400020: Cube|reel_up_1.001
+    7400022: Cube|reel_up_2.001
+    7400024: Cube|reel_up_3.001
+    7400026: Cube|reel_up_4.001
+    7400028: Cube|Untitled.000
+    7400030: Cube|Untitled.004
+    7400032: Cube|Untitled.005
+    7400034: Cube.002|hit.001
+    7400036: Cube.002|reel_up_1.001
+    7400038: Cube.002|reel_up_2.001
+    7400040: Cube.002|reel_up_3.001
+    7400042: Cube.002|reel_up_4.001
+    7400044: Cube.002|Untitled.000
+    7400046: Cube.002|Untitled.004
+    7400048: Cube.002|Untitled.005
+    7400050: skelly.000|hit
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: skelly.000|walk
+      takeName: skelly.000|walk
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: skelly.000
+        weight: 1
+      - path: skelly.000/master
+        weight: 1
+      - path: skelly.000/master/elbow_l
+        weight: 1
+      - path: skelly.000/master/elbow_r
+        weight: 1
+      - path: skelly.000/master/foot_l
+        weight: 1
+      - path: skelly.000/master/foot_r
+        weight: 1
+      - path: skelly.000/master/hand_l
+        weight: 1
+      - path: skelly.000/master/hand_r
+        weight: 1
+      - path: skelly.000/master/hips_main
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/neck
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/neck/head
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l/upperarm_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l/upperarm_l/lowerarm_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r/upperarm_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r/upperarm_r/lowerarm_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_l/lowerleg_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_r/lowerleg_r
+        weight: 1
+      - path: skelly.000/master/knee_l
+        weight: 1
+      - path: skelly.000/master/knee_r
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: skelly.000|hit
+      takeName: skelly.000|hit
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: skelly.000
+        weight: 1
+      - path: skelly.000/master
+        weight: 1
+      - path: skelly.000/master/elbow_l
+        weight: 1
+      - path: skelly.000/master/elbow_r
+        weight: 1
+      - path: skelly.000/master/foot_l
+        weight: 1
+      - path: skelly.000/master/foot_r
+        weight: 1
+      - path: skelly.000/master/hand_l
+        weight: 1
+      - path: skelly.000/master/hand_r
+        weight: 1
+      - path: skelly.000/master/hips_main
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/neck
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/neck/head
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l/upperarm_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_l/upperarm_l/lowerarm_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r/upperarm_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/back1/back2/back3/sholder_r/upperarm_r/lowerarm_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_l/lowerleg_l
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_r
+        weight: 1
+      - path: skelly.000/master/hips_main/DICKarea/upperleg_r/lowerleg_r
+        weight: 1
+      - path: skelly.000/master/knee_l
+        weight: 1
+      - path: skelly.000/master/knee_r
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.13
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
