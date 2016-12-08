@@ -1,0 +1,43 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+
+body{
+	@include transition(all 2.5s ease);
+}
+
+//ToolTip:
+.TT {
+	@include  hui_tooltip(attr(data-tooltip),  "top");
+}
+
+#SkateGraphic{
+
+	height: 40%;
+//	display: block;
+	float: right;
+	margin: 0 auto;
+
+	img{
+		text-align: right;
+		vertical-align: top;
+		display: block;
+		float: right;
+		margin-bottom: 5%;
+
+		border: 0;
+		height: 100%;
+		max-width: 100%;
+		
+	}
+
+}
+
+.jumbotron{
+	height: 60%;
+}
